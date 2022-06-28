@@ -17,8 +17,8 @@ on:
   #pull_request:
     #branches: [ "main" ]
   workflow_dispatch:
-  #schedule:
-    #- cron: '55 * * * *'
+  schedule:
+    - cron: '*/15 * * * *'
 # ======================== #
 #
 #
